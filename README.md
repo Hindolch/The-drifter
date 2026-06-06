@@ -8,6 +8,11 @@ Play a Galaga-inspired arcade shooter where the keyboard pilots your ship and yo
 
 https://hindolch.github.io/The-drifter/
 
+## Playing with keyboard
+
+https://github.com/user-attachments/assets/0782933e-3dc6-468a-a6a2-994b30271412
+
+
 ---
 
 ## About
