@@ -207,7 +207,7 @@ npm run preview
 
 ## Contributing
 
-Ideas, bug reports, pull requests, cursed techniques, and questionable Domain concepts are welcome.
+Ideas, bug reports, pull requests, cursed techniques, and more fictional add-ons be it domain concepts or others are always welcomed.
 
 Fork the repository, experiment recklessly, and submit a PR.
 
