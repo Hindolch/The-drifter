@@ -24,83 +24,59 @@ https://github.com/user-attachments/assets/803d6a7d-81e9-4a81-a22b-b2dfa6355670
 
 ### EXPAND YOUR DOMAIN! 🤞
 
-Uncover your webcam, back away from the monitor, and prepare to sweat.
+## Overview
 
-The Drifter feeds your video stream into an optimized computer vision pipeline that attempts to recognize your hand signs and convert them into reality-bending battlefield abilities.
+The Drifter is an experiment in combining arcade gameplay with computer vision.
 
-Is the tracking perfect? Mostly :)
-
-Two glorious modules sit side-by-side:
-
-🟦 **Arcade Cabinet (Left)**
-A pixel-art battlefield where rogue software entities attempt to delete your existence.
-
-🟪 **Player Cam (Right)**
-A neon-framed vision system watching your fingers and waiting for the next Domain Expansion.
-
-Zero servers.
-
-Zero cloud processing.
+Movement is controlled using the keyboard, while special abilities are activated through webcam-detected hand gestures. Gesture recognition runs entirely in the browser using MediaPipe, requiring no backend or cloud processing.
 
 ---
 
-## Official Game Manual (Read or Die)
+## Controls
 
-### 🎮 Hybrid Control System
-
-The Drifter combines traditional arcade controls with real-time gesture recognition.
-
-The keyboard handles movement.
-
-The Domains answer only to hand signs.
-
-| Input              | Technique           | Effect                                                                                                                                |
-| ------------------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| WASD / Arrow Keys  | Navigation          | Pilot your ship through incoming enemy formations.                                                                                    |
-| Auto Targeting     | Primary Fire        | The ship automatically attacks enemies entering its firing lane.                                                                      |
-| 🤞 Crossed Fingers | Infinite Void       | Slows hostile entities, giving you precious time to react and reposition.                                                             |
-| ✌️ Peace Sign      | Mirror Domain       | Enemy attacks are reflected against themselves. On the mirrored side of the battlefield, hostile projectiles become self-destructive. |
-| ✊ Fist             | Catastrophic Domain | Reality destabilizes. Speeds, behavior patterns, and combat flow become unpredictable as chaos consumes the battlefield.              |
+| Input | Action |
+|---------|---------|
+| WASD / Arrow Keys | Move the ship |
+| Auto Targeting | Fire at enemies in range |
+| 🤞 Crossed Fingers | Infinite Void |
+| ✌️ Peace Sign | Mirror Domain |
+| ✊ Fist | Catastrophic Domain |
 
 ---
 
-### 🩸 Cursed Energy System
+## Domain Abilities
 
-Every hostile variable destroyed releases fragments of raw Cursed Energy.
-
-These fragments automatically charge the meter displayed at the top of the cabinet.
-
-| Energy Level | Unlock                      |
-| ------------ | --------------------------- |
-| 0%           | Standard Combat             |
-| 50%          | Domain Techniques Available |
-| 100%         | **[DOMAIN READY]**          |
-
-Once the meter reaches maximum capacity, perform any recognized gesture in front of the Player Cam to invoke the corresponding Domain.
-
-Activating a Domain consumes the stored energy.
+| Domain | Effect |
+|----------|----------|
+| Infinite Void | Slows enemy movement and projectiles |
+| Mirror Domain | Reflects enemy attacks back at enemies |
+| Catastrophic Domain | Introduces chaotic gameplay modifiers and speed changes |
 
 ---
 
-### 👾 Enemy Movement Patterns
+## Features
 
-The rogue variables hunting you refuse to obey predictable logic.
+- Real-time hand gesture recognition
+- Hybrid keyboard and computer vision controls
+- Three gesture-triggered special abilities
+- Progressive enemy waves
+- Local high-score tracking
+- Retro-inspired Canvas UI
+- Browser-based audio system
+- Fully client-side architecture
 
-#### The Swarmers
+---
 
-Tiny, aggressive green entities.
+## Tech Stack
 
-* Fast movement
-* Zig-zag trajectories
-* Direct collision attempts
-
-#### The Heavy Artillery
-
-Larger red combat units.
-
-* Slower movement
-* Long-range attacks
-* Predictive firing patterns targeting your previous position
+| Layer | Technology |
+|---------|---------|
+| Language | TypeScript |
+| Build Tool | Vite |
+| Rendering | HTML5 Canvas |
+| Computer Vision | MediaPipe Tasks Vision |
+| Audio | Web Audio API |
+| Deployment | GitHub Pages |
 
 ---
 
@@ -126,33 +102,6 @@ Every cleared battlefield compiles a more dangerous version of itself.
 
 ---
 
-## Features
-
-* 🎥 Real-time hand gesture recognition using MediaPipe
-* 🎮 Hybrid keyboard + computer vision gameplay
-* 🌀 Three unique Domain Expansions
-* 👾 Progressive enemy wave system
-* 🏆 Local high-score tracking
-* 🎵 Dynamic browser audio system
-* 🕹️ Retro pixel-art inspired UI
-* ⚡ Fully client-side execution
-* 🌐 GitHub Pages deployment
-
----
-
-## 🛠️ Tech Stack
-
-| Layer           | Technology             |
-| --------------- | ---------------------- |
-| Language        | TypeScript             |
-| Build Tool      | Vite                   |
-| Rendering       | HTML5 Canvas           |
-| Computer Vision | MediaPipe Tasks Vision |
-| Audio           | Web Audio API          |
-| Deployment      | GitHub Pages           |
-| Version Control | Git & GitHub           |
-
----
 
 ## Quick Start (Local Sandbox)
 
