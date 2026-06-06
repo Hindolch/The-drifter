@@ -12,6 +12,11 @@ https://hindolch.github.io/The-drifter/
 
 https://github.com/user-attachments/assets/0782933e-3dc6-468a-a6a2-994b30271412
 
+## Hybrid-play (keyboard + hand signs)
+
+https://github.com/user-attachments/assets/803d6a7d-81e9-4a81-a22b-b2dfa6355670
+
+
 
 ---
 
@@ -212,5 +217,7 @@ Fork the repository, experiment recklessly, and submit a PR.
 
 MIT
 
+
+Made with ❤️ by Hindol Roy Choudhury 
 ---
 
