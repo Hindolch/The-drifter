@@ -42,8 +42,6 @@ Zero servers.
 
 Zero cloud processing.
 
-Just browser-based computer vision, HTML5 Canvas, and questionable life choices.
-
 ---
 
 ## Official Game Manual (Read or Die)
